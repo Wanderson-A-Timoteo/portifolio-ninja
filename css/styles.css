@@ -353,3 +353,34 @@ footer .detail {
   }
 
 }
+
+@media(max-width: 400px) {
+   /*  banner */
+   #main-banner {
+    height: 50vh;
+    padding-top: 5vh;
+    padding-bottom: 15vh;
+  }
+
+  #banner-info h1 {
+    font-size: 25px;
+  }
+
+  #banner-info p {
+    font-size: 15px;
+    margin-bottom: 30px;
+    width: auto;
+  }
+
+}
+
+@media(max-width: 321px) {
+  #navbar h2 {
+    display: flex;
+    font-size: 20px;
+  }
+
+  ul#navbar-list {
+    display: none;
+  }
+}
